@@ -1,5 +1,5 @@
 # https://github.com/feegloo/macos-scripts
-export PS1="\W \$"                          # terminal - hide computer name and username
+export PS1="\e[0;32m\W \e[m "               # terminal - hide computer name and username, make cwd green
 export BASH_SILENCE_DEPRECATION_WARNING=1   # terminal - hide zhs deprecation message
 touch .hushlogin                            # terminal - hide 'last login'
 cd ~/Desktop                                # initial path
