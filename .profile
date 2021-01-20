@@ -9,4 +9,4 @@ cd ~/Desktop                                # initial path
 hidutil property --set '{"UserKeyMapping": [{"HIDKeyboardModifierMappingSrc":0x700000064, "HIDKeyboardModifierMappingDst":0x700000035}] }' > /dev/null
 
 sudo nvram SystemAudioVolume=%01            # disable boot sound
-                                            # TODO: run once
+                                            # TODO: run once ? or every time after login?
